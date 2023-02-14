@@ -4,16 +4,16 @@ A simple wrapper around the pkg/cticlient to generate IP's from firedatabase as 
 
 #### Manual Installation
 ```bash
-git clone https://github.com/crowdsecurity/fire_tool
+git clone https://github.com/crowdsecurity/crowdsec-fire-tool
 go build
-chmod +x crowdsec_fire_tool
-install -m 600 crowdsec_fire_tool /usr/bin/ 
+chmod +x crowdsec-fire-tool
+install -m 600 crowdsec-fire-tool /usr/bin/ 
 ```
 
 Usage
 
 ```bash
-sudo CTI_API_KEY=XXXXXX OUTPUT_DIR=/var/lib/crowdsec/data/ crowdsec_fire_tool
+sudo CTI_API_KEY=XXXXXX OUTPUT_DIR=/var/lib/crowdsec/data/ crowdsec-fire-tool
 ```
 
 Environment
