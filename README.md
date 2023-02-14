@@ -2,6 +2,12 @@
 
 A simple wrapper around the pkg/cticlient to generate IP's from firedatabase as newline delimeter file.
 
+#### Go Install
+```
+go install "github.com/crowdsecurity/crowdsec-fire-tool"
+```
+Make sure "~/go/bin/" is within your $PATH
+
 #### Manual Installation
 ```bash
 git clone https://github.com/crowdsecurity/crowdsec-fire-tool
